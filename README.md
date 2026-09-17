@@ -10,7 +10,12 @@ An online retailer wants to improve sales, customer retention, and product strat
 To transform transaction-level data into customer-level behavioural features and identify groups of customers with similar purchasing behaviour using unsupervised machine learning.
 
 ## Dataset
-*To be filled after dataset acquisition.*
+The dataset is the [Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online-retail) from the UCI Machine Learning Repository. It contains historical transactional data (541,909 records, 8 variables) occurring between 2010 and 2011 for a UK-based and registered non-store online retail.
+
+The dataset includes the following variables:
+* `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `CustomerID`, `Country`
+
+A full data dictionary can be found in `reports/data_dictionary.md`.
 
 ## Methodology
 The project follows a standard Data Mining workflow:
