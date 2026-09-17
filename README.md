@@ -26,10 +26,17 @@ The project follows a standard Data Science folder structure:
 │   ├── data_dictionary.md # Variables definition
 │   ├── decision_log.md    # Model architecture decisions
 │   └── eda_insight_log.md # Initial EDA findings
-├── src/                   # Source code for production pipeline (if refactored)
+├── src/                   # Source code for use in this project
+│   ├── data/              # Scripts to download or generate data
+│   ├── evaluation/        # Scripts for evaluating model performance
+│   ├── features/          # Scripts to turn raw data into features for modeling
+│   └── models/            # Scripts to train models and then use trained models to make predictions
 ├── requirements.txt       # Python dependencies
 └── .gitignore             # Ignored files (data/, scratch/, etc.)
 ```
+
+### Note on `src/` directory
+While this project heavily utilizes Jupyter Notebooks for exploration, visualization, and answering the assignment prompts, the `src/` folder is included to demonstrate professional software engineering standards. In a real-world production environment, notebook code is typically refactored into modular Python scripts (`.py` files) stored in `src/` so they can be scheduled to run automatically (e.g., via Airflow or Cron) without human intervention. We have included placeholder files in this directory to illustrate this architecture.
 
 ## 🚀 Key Findings & Business Segments
 Using an Optimal **K-Means (K=4)** clustering algorithm, we successfully partitioned the customer base into four distinct business segments:
