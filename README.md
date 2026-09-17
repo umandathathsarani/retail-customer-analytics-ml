@@ -1,10 +1,18 @@
 # Retail Customer Analytics & Segmentation
 
-![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+<div align="center">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/umandathathsarani/retail-customer-analytics-ml?style=flat&color=success)
+![GitHub last commit](https://img.shields.io/github/last-commit/umandathathsarani/retail-customer-analytics-ml?style=flat&color=success)
+<br>
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg?style=flat&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
+
+</div>
 
 ## 📌 Project Overview
 This project applies Machine Learning to segment a retailer's customer base using historical transaction data. By translating raw transaction data into RFM (Recency, Frequency, Monetary) features, we deployed clustering algorithms to identify actionable customer personas. This enables the business to launch targeted marketing campaigns, increase retention, and maximize customer lifetime value (CLV).
