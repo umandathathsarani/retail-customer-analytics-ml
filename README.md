@@ -91,7 +91,37 @@ While the current analysis is contained in Jupyter Notebooks, moving this to a p
   3. Track cluster migration (e.g., how many "Recent Newbies" become "Loyal" month-over-month).
 
 ## 🛠️ Setup Instructions
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Download the dataset from UCI and place `Online_Retail.xlsx` in `data/raw/`.
-4. Run the notebooks in sequence from `01` to `06`.
+### 1. Prerequisites
+Ensure you have Python 3.10+ and `git` installed on your system.
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/umandathathsarani/retail-customer-analytics-ml.git
+cd retail-customer-analytics-ml
+```
+
+### 3. Set Up a Virtual Environment (Recommended)
+It is highly recommended to use a virtual environment to isolate the project dependencies.
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 4. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Download the Dataset
+1. Download the `Online_Retail.xlsx` file from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online-retail).
+2. Place the downloaded Excel file directly into the `data/raw/` directory.
+
+### 6. Run the Analysis
+Launch Jupyter Notebook from the root of the project directory:
+```bash
+jupyter notebook
+```
+Navigate to the `notebooks/` folder in the Jupyter interface and execute the notebooks in sequential order (`01` through `06`).
