@@ -1,6 +1,6 @@
-# Retail Customer Analytics & Segmentation
-
 <div align="center">
+
+# Retail Customer Analytics & Segmentation
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/umandathathsarani/retail-customer-analytics-ml?style=flat&color=success)
 ![GitHub last commit](https://img.shields.io/github/last-commit/umandathathsarani/retail-customer-analytics-ml?style=flat&color=success)
